@@ -26,7 +26,8 @@ async function init() {
 async function fetchArtworks() {
     try {
         const response = await fetch(API_URL);
-        if (!response.ok) throw new Error('Failed to fetch artworks');
+        if (!response.ok) 
+            throw new Error('Failed to fetch artworks!');
         artworks = await response.json();
         renderArtworks(artworks);
     } catch (error) {
