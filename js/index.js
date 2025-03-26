@@ -32,14 +32,14 @@ async function fetchArtworks() {
         renderArtworks(artworks);
     } catch (error) {
         console.error('Error:', error);
-        artworksContainer.innerHTML = '<p class="error">Failed to load artworks. Please try again later.</p>';
+        artworksContainer.innerHTML = "<p class='error'>Failed to load artworks. Please try again later.</p>";
     }
 }
 
 function renderArtworks(artworksToRender) {
     artworksContainer.innerHTML = '';
     
-    if (artworksToRender.length == 0) {
+    if (artworksToRender.length === 0) {
         artworksContainer.innerHTML = '<p>No artworks found.</p>';
         return;
     }
