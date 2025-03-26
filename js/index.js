@@ -37,7 +37,7 @@ async function fetchArtworks() {
 }
 
 function renderArtworks(artworksToRender) {
-    artworksContainer.innerHTML = '';
+    artworksContainer.innerHTML = "";
     
     if (artworksToRender.length === 0) {
         artworksContainer.innerHTML = '<p>No artworks found.</p>';
