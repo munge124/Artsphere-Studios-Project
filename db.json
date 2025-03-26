@@ -53,6 +53,15 @@
       "category": "Paradise",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/The_Garden_of_earthly_delights.jpg/960px-The_Garden_of_earthly_delights.jpg",
       "description": "Earth is Paradise"
+    },
+    {
+      "id": "2c82",
+      "title": "The Storm on the Sea of Galilee",
+      "artist": "Rembrandt van Rijn",
+      "year": "1633",
+      "category": "Oil painting",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Rembrandt_Christ_in_the_Storm_on_the_Lake_of_Galilee.jpg/330px-Rembrandt_Christ_in_the_Storm_on_the_Lake_of_Galilee.jpg",
+      "description": "Christ calming the storm"
     }
   ]
 }
