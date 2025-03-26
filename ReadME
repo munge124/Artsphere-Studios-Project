@@ -91,3 +91,16 @@ Deleting Artwork
 Click "Delete" button on any artwork card
 
 Confirm deletion in the dialog
+
+API Endpoints
+The json-server provides these RESTful endpoints:
+
+GET /artworks - Get all artworks
+
+GET /artworks/:id - Get single artwork
+
+POST /artworks - Create new artwork
+
+PUT /artworks/:id - Update artwork
+
+DELETE /artworks/:id - Delete artwork
