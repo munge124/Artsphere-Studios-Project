@@ -46,7 +46,7 @@ function renderArtworks(artworksToRender) {
     
     artworksToRender.forEach(artwork => {
         const artworkCard = document.createElement('div');
-        artworkCard.className = 'artwork-card';
+        artworkCard.className = "artwork-card";
         
         artworkCard.innerHTML = `
             <img src="${artwork.image}" alt="${artwork.title}" class="artwork-image">
