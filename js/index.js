@@ -149,7 +149,7 @@ async function updateArtwork(id, artwork) {
         },
         body: JSON.stringify(artwork)
     });
-    if (!response.ok) throw new Error('Failed to update artwork');
+    if (!response.ok) throw new Error('Failed to update artwork!');
     return await response.json();
 }
 
