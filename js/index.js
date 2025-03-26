@@ -82,10 +82,10 @@ function showForm(artwork = null) {
         artIdInput.value = artwork.id;
         document.getElementById('title').value = artwork.title;
         document.getElementById('artist').value = artwork.artist;
-        document.getElementById('year').value = artwork.year || '';
-        document.getElementById('category').value = artwork.category || '';
+        document.getElementById('year').value = artwork.year ;
+        document.getElementById('category').value = artwork.category ;
         document.getElementById('image').value = artwork.image;
-        document.getElementById('description').value = artwork.description || '';
+        document.getElementById('description').value = artwork.description ;
         deleteBtn.classList.remove('hidden');
     } else {
         formTitle.textContent = 'Add New Artwork';
