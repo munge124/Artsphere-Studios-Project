@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Artsphere Studios</h1>
+        <div class="controls">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search artworks...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <button id="add-art-btn">Add New Art</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="gallery-view">
+            <div id="artworks-container" class="grid-view"></div>
+        </section>
+
+        <section id="form-view" class="hidden">
+            <form id="art-form">
+                <h2 id="form-title">Add New Artwork</h2>
+                <input type="hidden" id="art-id">
+                
+                <div class="form-group">
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="artist">Artist:</label>
+                    <input type="text" id="artist" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="year">Year:</label>
+                    <input type="number" id="year">
+                </div>
+                
+                <div class="form-group">
+                    <label for="category">Category:</label>
+                    <input type="text" id="category">
+                </div>
+                
+                <div class="form-group">
+                    <label for="image">Image URL:</label>
+                    <input type="url" id="image" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <textarea id="description"></textarea>
+                </div>
+                
+                <div class="form-actions">
+                    <button type="submit" id="save-btn">Save</button>
+                    <button type="button" id="cancel-btn">Cancel</button>
+                    <button type="button" id="delete-btn" class="hidden">Delete</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
+

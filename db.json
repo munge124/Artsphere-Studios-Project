@@ -1,0 +1,49 @@
+{
+  "artworks": [
+    {
+      "id": "2",
+      "title": "The Persistence of Memory",
+      "artist": "Salvador Dalí",
+      "year": 1931,
+      "description": "Surrealist painting featuring melting clocks",
+      "image": "https://www.moma.org/media/W1siZiIsIjMxODk4MCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MTQ0MFx1MDAzZSJdXQ.jpg",
+      "category": "Surrealism"
+    },
+    {
+      "id": "f030",
+      "title": "Monalisa",
+      "artist": "Leonardo DaVinci",
+      "year": "1503",
+      "category": "rare",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+      "description": "The most famous painting in the world"
+    },
+    {
+      "id": "8c5f",
+      "title": "Girl with a Pearl Earring",
+      "artist": "Johannes Vermeer",
+      "year": "1665",
+      "category": "Beauty",
+      "image": "https://www.singulart.com/blog/wp-content/uploads/2023/10/Famous-Portrait-Paintings-848x530-1.jpg",
+      "description": "Beauty at its true Essence"
+    },
+    {
+      "title": "The Birth of Venus",
+      "artist": "Sandro Botticelli",
+      "year": "1480",
+      "category": "Beauty",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/400px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+      "description": "History of Venus ",
+      "id": "bc5b"
+    },
+    {
+      "title": "The Starry Night",
+      "artist": "Vincent van Gogh",
+      "year": "1889",
+      "category": "Post-Impressionism",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/350px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+      "description": "Emotional turmoil of Vincent van Gogh",
+      "id": "cbb0"
+    }
+  ]
+}

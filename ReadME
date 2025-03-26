@@ -1,0 +1,64 @@
+Artsphere Studio Application.
+
+Overview
+This Artsphere Studio Application is a dynamic web application that allows users to browse, search, and manage a collection of artworks. Built with HTML, CSS, and JavaScript, it features full CRUD (Create, Read, Update, Delete) functionality powered by json-server as a mock backend API.
+
+Key Features
+🖼️ Artwork Display: View artworks in responsive grid or list layouts
+
+🔍 Search Functionality: Filter artworks by title or artist
+
+✏️ CRUD Operations: Add, edit, and delete artworks
+
+📱 Responsive Design: Works on desktop, tablet, and mobile devices
+
+🎨 Modern UI: Clean interface with smooth transitions
+
+Technologies Used
+Frontend:
+
+HTML5
+
+CSS3 (Flexbox, Grid)
+
+JavaScript (ES6+)
+
+Fetch API for HTTP requests
+
+Backend:
+
+json-server (mock REST API)
+
+db.json (database file)
+
+Getting Started
+Clone the repository:
+
+bash
+Copy
+git clone https://github.com/yourusername/art-gallery-spa.git
+cd art-gallery-spa
+Install json-server globally:
+
+bash
+Copy
+npm install -g json-server
+Start the backend server (in a separate terminal):
+
+bash
+Copy
+json-server --watch db.json
+Open the application:
+
+Launch index.html in your browser
+
+Or use a local server like VS Code's Live Server extension
+
+Project Structure
+Copy
+art-gallery/
+├── index.html          # Main HTML file
+├── styles.css         # All CSS styles
+├── script.js          # Main JavaScript logic
+├── db.json           # Mock database
+└── README.md        # This documentation
