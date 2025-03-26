@@ -107,7 +107,7 @@ async function handleSubmit(e) {
     e.preventDefault();
     
     const artwork = {
-        title: document.getElementById('title').value,
+        title: document.getElementById("title").value,
         artist: document.getElementById('artist').value,
         year: document.getElementById('year').value,
         category: document.getElementById('category').value,
