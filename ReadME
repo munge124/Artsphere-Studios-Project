@@ -104,3 +104,14 @@ POST /artworks - Create new artwork
 PUT /artworks/:id - Update artwork
 
 DELETE /artworks/:id - Delete artwork
+
+Future Enhancements
+User authentication system
+
+Favorites/collections feature
+
+Image upload capability
+
+Pagination for large collections
+
+Advanced filtering options
