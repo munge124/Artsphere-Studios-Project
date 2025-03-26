@@ -78,7 +78,7 @@ function showForm(artwork = null) {
     isEditing = !!artwork;
     
     if (isEditing) {
-        formTitle.textContent = 'Edit Artwork';
+        formTitle.textContent = "Edit Artwork";
         artIdInput.value = artwork.id;
         document.getElementById('title').value = artwork.title;
         document.getElementById('artist').value = artwork.artist;
