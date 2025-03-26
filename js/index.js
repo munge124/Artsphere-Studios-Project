@@ -13,7 +13,7 @@ const saveBtn = document.getElementById('save-btn');
 const cancelBtn = document.getElementById('cancel-btn');
 const deleteBtn = document.getElementById('delete-btn');
 
-let artworks = [];
+
 let isEditing = false;
 
 document.addEventListener('DOMContentLoaded', init);
