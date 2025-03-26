@@ -19,13 +19,13 @@
       "description": "The most famous painting in the world"
     },
     {
-      "id": "8c5f",
       "title": "Girl with a Pearl Earring",
       "artist": "Johannes Vermeer",
       "year": "1665",
-      "category": "Beauty",
+      "category": "Beauty ",
       "image": "https://www.singulart.com/blog/wp-content/uploads/2023/10/Famous-Portrait-Paintings-848x530-1.jpg",
-      "description": "Beauty at its true Essence"
+      "description": "Beauty at its true Essence",
+      "id": "8c5f"
     },
     {
       "title": "The Birth of Venus",

@@ -206,5 +206,5 @@ function setupEventListeners() {
         }
     });
     
-    artworksContainer.addEventListener('click', handleArtworkActions);
+    artworksContainer.addEventListener("click", handleArtworkActions);
 }
