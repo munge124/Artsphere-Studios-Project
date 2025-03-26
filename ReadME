@@ -64,3 +64,30 @@ art-gallery/
 └── README.md        # This documentation
 
 Your site is live at https://munge124.github.io/Artsphere-Studios-Project/
+
+Usage Guide
+Browsing Artworks
+View all artworks in the main gallery
+
+Click on any artwork to see detailed view
+
+Use the search bar to filter artworks
+
+Adding New Artwork
+Click "Add New Art" button
+
+Fill out the form with artwork details
+
+Click "Save" to add to the gallery
+
+Editing Artwork
+Click "Edit" button on any artwork card
+
+Modify the details in the form
+
+Click "Save" to update
+
+Deleting Artwork
+Click "Delete" button on any artwork card
+
+Confirm deletion in the dialog
