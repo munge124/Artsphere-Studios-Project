@@ -1,22 +1,22 @@
 {
   "artworks": [
     {
-      "id": "2",
       "title": "The Persistence of Memory",
       "artist": "Salvador Dalí",
-      "year": 1931,
-      "description": "Surrealist painting featuring melting clocks",
+      "year": "1931",
+      "category": "Surrealism",
       "image": "https://www.moma.org/media/W1siZiIsIjMxODk4MCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MTQ0MFx1MDAzZSJdXQ.jpg",
-      "category": "Surrealism"
+      "description": "Surrealist painting featuring melting clocks",
+      "id": "2"
     },
     {
-      "id": "f030",
       "title": "Monalisa",
       "artist": "Leonardo DaVinci",
       "year": "1503",
-      "category": "rare",
+      "category": "Rare",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
-      "description": "The most famous painting in the world"
+      "description": "The most famous painting in the world",
+      "id": "f030"
     },
     {
       "title": "Girl with a Pearl Earring",
@@ -62,15 +62,6 @@
       "category": "Oil painting",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Rembrandt_Christ_in_the_Storm_on_the_Lake_of_Galilee.jpg/330px-Rembrandt_Christ_in_the_Storm_on_the_Lake_of_Galilee.jpg",
       "description": "Christ calming the storm"
-    },
-    {
-      "id": "4d8d",
-      "title": "The School of Athens",
-      "artist": "Raphael",
-      "year": "1510",
-      "category": "Knowledge",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/270px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
-      "description": "Encoding philosophy, mathematics and science"
     }
   ]
 }
